@@ -21,6 +21,6 @@ case $1 in
   pushd ~/golang/go/src &> /dev/null
   export PATH=\$PATH:/opt/gcc-4.8.1/bin/
   ./all.bash"
-  tar -czf go${GO_VERSION}.omnios-amd64.tar.gz
+  tar -czf go${GO_VERSION}.omnios-amd64.tar.gz go
   ;;
 esac
