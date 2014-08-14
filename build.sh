@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GO_VERSION=1.3
+GO_VERSION=1.3.1
 GO_PKG=go${GO_VERSION}.src.tar.gz
 GO_URI=http://golang.org/dl/${GO_PKG}
 
